@@ -12,7 +12,7 @@ class HomeScreen extends StatelessWidget {
     final List<Food> allFoods = getAllFoods();
 
     return Scaffold(
-      body: ListView.builder(
+      body: ListView.builder( 
         itemCount: allFoods.length,
         itemBuilder: (context, index) => ListTile(
           onTap: () {
